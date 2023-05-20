@@ -1,0 +1,99 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+#quote {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "Sono", sans-serif;
+  background-color: #fff;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+#clock {
+  position: absolute;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 8rem;
+  top: 8%;
+  left: 35%;
+  opacity: 90%;
+  color: #434342;
+}
+
+#login-form {
+  position: absolute;
+  top: 43%;
+  left: 34%;
+  font-size: 1.5em;
+}
+
+input[type="text"] {
+  border: 0;
+  outline: none;
+  width: 400px;
+  height: 50px;
+  font-family: "Sono", sans-serif;
+}
+
+input[type="submit"] {
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  opacity: 0.6;
+  font-family: "Sono", sans-serif;
+}
+
+#greeting {
+  position: absolute;
+  font-family: "Lobster", cursive;
+  font-size: 2.3em;
+  color: #434342;
+  top: 40%;
+  left: 41.5%;
+}
+
+#todo-form {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  font-size: 0.7em;
+}
+
+#todo-list {
+  position: absolute;
+  top: 69%;
+  left: 34%;
+  font-family: "Sono", sans-serif;
+}
+
+#weather {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-family: "Sono", sans-serif;
+  background-color: #fff;
+  opacity: 0.6;
+  border-radius: 3px;
+}
